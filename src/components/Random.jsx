@@ -31,7 +31,7 @@ export default function Random() {
   useEffect(() => {
     if (type === "rgb") createRgbColor();
     else createHexColor();
-  }, [type])
+  }, [type]);
 
   return (
     <>
